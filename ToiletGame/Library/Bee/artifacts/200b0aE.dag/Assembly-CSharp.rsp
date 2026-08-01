@@ -485,6 +485,7 @@
 "Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Extensions/Vector2Extensions.cs"
 "Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputActions.cs"
 "Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputManager/PlayerInputManager.cs"
+"Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/NPC/NPCController.cs"
 "Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Platform Movement/Platform.cs"
 "Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Platform Movement/SwingingPlatform.cs"
 "Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/PlayerData.cs"

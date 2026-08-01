@@ -21476,3 +21476,1377 @@ Memory consumption went from 182.6 MB to 179.4 MB.
 Total: 4.902666 ms (FindLiveObjects: 0.254875 ms CreateObjectMapping: 0.259542 ms MarkObjects: 3.365500 ms  DeleteObjects: 1.022583 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1155.069758 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Utility/BaseEditor.cs
+  artifactKey: Guid(15ef94834d9e4aa44ac8fe619843346b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Utility/BaseEditor.cs using Guid(15ef94834d9e4aa44ac8fe619843346b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '646f770747dc88b4147dd4fc910d5250') in 0.02817725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineExternalCamera.cs
+  artifactKey: Guid(57744762d9079934292f57896d8193e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineExternalCamera.cs using Guid(57744762d9079934292f57896d8193e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92b3614fa35aec9bd5505c5996a4585f') in 0.002319667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Windows/CinemachineColliderPrefs.cs
+  artifactKey: Guid(aceb1a3f85f55c249bba6eaade29f2aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Windows/CinemachineColliderPrefs.cs using Guid(aceb1a3f85f55c249bba6eaade29f2aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52dcea3d4eff0e2507ff17a641c141d7') in 0.001547167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/ICinemachineCamera.cs
+  artifactKey: Guid(2643ac9881a89594a80c242b565b34ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/ICinemachineCamera.cs using Guid(2643ac9881a89594a80c242b565b34ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22e2d6230cedc771374e4626527c09e2') in 0.0013085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light-Selected/FollowOffset.png
+  artifactKey: Guid(cb2ae02bbb5ba42b8890f2b3d7b153a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light-Selected/FollowOffset.png using Guid(cb2ae02bbb5ba42b8890f2b3d7b153a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0114768a5769cba7b70cb16518df225') in 0.020394291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePixelPerfect.cs
+  artifactKey: Guid(1a8a05de0ac134f4f9d01bef6b9da077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePixelPerfect.cs using Guid(1a8a05de0ac134f4f9d01bef6b9da077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebd135f97b504f457773d16cdf11c68d') in 0.001684458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/CinemachineBlenderSettings.cs
+  artifactKey: Guid(36baaa8bdcb9d8b49b9199833965d2c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/CinemachineBlenderSettings.cs using Guid(36baaa8bdcb9d8b49b9199833965d2c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15ad06ffaaebf80f3082761f7312d67b') in 0.001367792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCollider.cs
+  artifactKey: Guid(e501d18bb52cf8c40b1853ca4904654f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCollider.cs using Guid(e501d18bb52cf8c40b1853ca4904654f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4f5e7e157ebc61cafcd77c59b790aea') in 0.001603417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.cinemachine/Editor
+  artifactKey: Guid(b46f22104d80d4c4e8d58f046ed45054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor using Guid(b46f22104d80d4c4e8d58f046ed45054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63c6956b186ef470fc89c6e598cefeee') in 0.001190666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/UnityVectorExtensions.cs
+  artifactKey: Guid(6a0472cd31396f741969b8c1af8dd5a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/UnityVectorExtensions.cs using Guid(6a0472cd31396f741969b8c1af8dd5a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '429b03cbab56cca1fd40c0cafaa7c0f3') in 0.001453708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Runtime/TestController.controller
+  artifactKey: Guid(713b772b1d0f74133a8ce94956352a48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Runtime/TestController.controller using Guid(713b772b1d0f74133a8ce94956352a48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '819564362838e4c03af0a058d2be4525') in 0.001972917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Timeline
+  artifactKey: Guid(0282251d79d6e964089ace2dc6e6e496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Timeline using Guid(0282251d79d6e964089ace2dc6e6e496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a70b74bd7a7dfe90cc76eeb34754635') in 0.001226625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_tele_mild.asset
+  artifactKey: Guid(a3dacaec0287d7444b4bd276816e1666) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_tele_mild.asset using Guid(a3dacaec0287d7444b4bd276816e1666) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abe45e4855789b194018dfc790fc0371') in 0.003276458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components/CinemachineTransposer.cs
+  artifactKey: Guid(fa7155796051b734daa718462081dc5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components/CinemachineTransposer.cs using Guid(fa7155796051b734daa718462081dc5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b230583737934b928ebd98f8c5238215') in 0.001278875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineConfiner.cs
+  artifactKey: Guid(a2fba25a5cd15594e8f050a11e386c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineConfiner.cs using Guid(a2fba25a5cd15594e8f050a11e386c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0342b71a9ab3b8b156cb8c8ab23564b') in 0.001532084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseChannelPropertyDrawer.cs
+  artifactKey: Guid(0803634542916d8498caef53ed5604db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseChannelPropertyDrawer.cs using Guid(0803634542916d8498caef53ed5604db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '087e81c30ca55927857abba52b58be7e') in 0.001484916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineExternalCameraEditor.cs
+  artifactKey: Guid(3226d9f88577be74197693bd17cff8c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineExternalCameraEditor.cs using Guid(3226d9f88577be74197693bd17cff8c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32536ea5153d27c1cbcfae18e7b9d9a1') in 0.001388333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/UpdateTracker.cs
+  artifactKey: Guid(41a7beeb0ec57584382c8170981d8ac1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/UpdateTracker.cs using Guid(41a7beeb0ec57584382c8170981d8ac1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e7a4150b64be692bdceefeddac8e615') in 0.001341667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light/TrackedObjectOffset.png
+  artifactKey: Guid(b880c0b2ad1ba404391179484fbf51bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light/TrackedObjectOffset.png using Guid(b880c0b2ad1ba404391179484fbf51bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d476b64d84d8172036ed6e287012951') in 0.002706917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineDollyCart.cs
+  artifactKey: Guid(99a9c787e5d1bbf48a389834c4a9641c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineDollyCart.cs using Guid(99a9c787e5d1bbf48a389834c4a9641c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0c0e8471f1671ebb012c7d4333628b3') in 0.001987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineTargetGroupEditor.cs
+  artifactKey: Guid(eb8e037cb3f873743a725427c8c22342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineTargetGroupEditor.cs using Guid(eb8e037cb3f873743a725427c8c22342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1927b58c3e46a17b4602f6ee79ff3327') in 0.001575084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Utility/ScriptableObjectUtility.cs
+  artifactKey: Guid(ba59c38a116ff2f4fb69f825ba0da3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Utility/ScriptableObjectUtility.cs using Guid(ba59c38a116ff2f4fb69f825ba0da3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd30037c30ca1af914407af9f60405523') in 0.001229625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Helpers/CinemachineTriggerActionEditor.cs
+  artifactKey: Guid(c5d95ccadebafc84b8226853d987217d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Helpers/CinemachineTriggerActionEditor.cs using Guid(c5d95ccadebafc84b8226853d987217d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '705ad40cf28839fc9d976dd637133e0d') in 0.001583208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_normal_extreme.asset
+  artifactKey: Guid(20a705aea2d80e0478fb89b6f43d8530) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_normal_extreme.asset using Guid(20a705aea2d80e0478fb89b6f43d8530) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '697b82ee16181fd42d2cfecb7d92e220') in 0.001512708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components/Cinemachine3rdPersonFollow.cs
+  artifactKey: Guid(bd6043bde05a7fc4cba197d06915c1e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components/Cinemachine3rdPersonFollow.cs using Guid(bd6043bde05a7fc4cba197d06915c1e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '720d74972c1a593f1a726ca8d4fcc346') in 0.001467041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark/FOV.png
+  artifactKey: Guid(e19681a513069400aa38220f89283d8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark/FOV.png using Guid(e19681a513069400aa38220f89283d8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a37bde5fb75828b22281289623ef9d1a') in 0.0029565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/6D Shake.asset
+  artifactKey: Guid(69ce8388f6785dd4c8c39915efece2f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/6D Shake.asset using Guid(69ce8388f6785dd4c8c39915efece2f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6edbea077e25e1b70d389217fff268e0') in 0.002026667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components/CinemachinePOV.cs
+  artifactKey: Guid(3c9beda531928fc40968802117a5d256) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components/CinemachinePOV.cs using Guid(3c9beda531928fc40968802117a5d256) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d5fa1532d7747cfcb550a42dafc5d5f') in 0.001317083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineScreenComposerGuides.cs
+  artifactKey: Guid(2a15a1e455bcc7543872f50762449739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineScreenComposerGuides.cs using Guid(2a15a1e455bcc7543872f50762449739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d48a86567661de29fe9638517cff7e9') in 0.001546792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseSourceEditor.cs
+  artifactKey: Guid(b56f2475416eeea4c916add2d7268ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseSourceEditor.cs using Guid(b56f2475416eeea4c916add2d7268ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d5929fbbb86b938cdb01935c822626f') in 0.001408375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineColliderEditor.cs
+  artifactKey: Guid(bf34fbe7a6e71634493d770ed0031f9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineColliderEditor.cs using Guid(bf34fbe7a6e71634493d770ed0031f9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56a532ba71268f8b0e9b32abd2c7d3c7') in 0.001455167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components/CinemachineSameAsFollowTarget.cs
+  artifactKey: Guid(a4c41ac9245b87c4192012080077d830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components/CinemachineSameAsFollowTarget.cs using Guid(a4c41ac9245b87c4192012080077d830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80b035bb9d871e8eec95c01bd7ca8142') in 0.001433541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineSmoothPath.cs
+  artifactKey: Guid(a200b19ca1a9685429ed7e043c28e904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineSmoothPath.cs using Guid(a200b19ca1a9685429ed7e043c28e904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b83e935ce5ee682e108544cd3f069d2') in 0.001292084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/TargetPositionCache.cs
+  artifactKey: Guid(f3984bf8b42bf0040b49d95de1a2990f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/TargetPositionCache.cs using Guid(f3984bf8b42bf0040b49d95de1a2990f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '662b9b3770d58558b59dae16354d4f0c') in 0.0012985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineHardLookAtEditor.cs
+  artifactKey: Guid(9ce16cd7e31794b48b2843381cd87d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineHardLookAtEditor.cs using Guid(9ce16cd7e31794b48b2843381cd87d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91fed22483bd142125e7661d3c1d4c81') in 0.001374917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs
+  artifactKey: Guid(72ece51f2901e7445ab60da3685d6b5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs using Guid(72ece51f2901e7445ab60da3685d6b5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'adc319cecc94e6859a2a129f5eaeb25f') in 0.001657375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.cinemachine/Gizmos
+  artifactKey: Guid(e23e7b0718e5ff841b3583b60706de89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Gizmos using Guid(e23e7b0718e5ff841b3583b60706de89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6b0651862614d6fbf1d38ce0bb32ad6') in 0.00125625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core
+  artifactKey: Guid(3d53800f587b60a4191877d7713cd17c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core using Guid(3d53800f587b60a4191877d7713cd17c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f94f488d49016f8198fb8753b56341c4') in 0.001322291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light/FOV.png
+  artifactKey: Guid(2298d7737762c4efbbac29ffd335454a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light/FOV.png using Guid(2298d7737762c4efbbac29ffd335454a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07d07a63e70fc30b1f2fe93fb4ce5868') in 0.003053542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark-Selected/TrackedObjectOffset.png
+  artifactKey: Guid(abf5fad07c5e3473192deab2278caf13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark-Selected/TrackedObjectOffset.png using Guid(abf5fad07c5e3473192deab2278caf13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a76520608e4c7b32fe5cef4537ecc197') in 0.003620875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/RuntimeUtility.cs
+  artifactKey: Guid(b567991935cb6844d9bb65eda22b628f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/RuntimeUtility.cs using Guid(b567991935cb6844d9bb65eda22b628f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '917ba24a116d27316059d8ac387862b7') in 0.00124725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs
+  artifactKey: Guid(45e653bab7fb20e499bda25e1b646fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs using Guid(45e653bab7fb20e499bda25e1b646fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03a8162d29f34c323fc384ff0cffb575') in 0.001567042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise
+  artifactKey: Guid(8f107aadf823af24889bc290a1cca90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Presets/Noise using Guid(8f107aadf823af24889bc290a1cca90d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59d583d60394a355e57a2184da96939b') in 0.001162667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineTrack.cs
+  artifactKey: Guid(05acc715f855ced458d76ee6f8ac6c61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineTrack.cs using Guid(05acc715f855ced458d76ee6f8ac6c61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0133bd64fd9a878328072b939c879a9') in 0.001439375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Experimental
+  artifactKey: Guid(351cec6faf82a1848a52b8fd995c6c25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Experimental using Guid(351cec6faf82a1848a52b8fd995c6c25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9da176e9a2d6c24e7c44b57d25c16417') in 0.001361917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/Predictor.cs
+  artifactKey: Guid(6cef82e891a45884fb2b70604b0f8c29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/Predictor.cs using Guid(6cef82e891a45884fb2b70604b0f8c29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '690c2bcf112decbd97be9b3884b68bc6') in 0.0015495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light/FollowOffset.png
+  artifactKey: Guid(7cd5c9cd9de00488ebbdd134c8a20a40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light/FollowOffset.png using Guid(7cd5c9cd9de00488ebbdd134c8a20a40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e1f12db0a3014828947cdca4513459b') in 0.003215209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/Handheld_wideangle_strong.asset
+  artifactKey: Guid(20e46be82478fa24b90f748044c06b4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/Handheld_wideangle_strong.asset using Guid(20e46be82478fa24b90f748044c06b4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '320b5766ec3dd68932bd9344275ac934') in 0.001437458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/CinemachinePathBase.cs
+  artifactKey: Guid(a73149a4b6c41d741bc5e4e3b7711c0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/CinemachinePathBase.cs using Guid(a73149a4b6c41d741bc5e4e3b7711c0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cc00a26a5ed0787a86a504ae6545c8b') in 0.001396792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Experimental/CinemachineNewFreeLook.cs
+  artifactKey: Guid(bd920fe83f1086148a2b401f3e66528f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Experimental/CinemachineNewFreeLook.cs using Guid(bd920fe83f1086148a2b401f3e66528f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc49d3e2ab9cdd443c42aa84bb18996f') in 0.001489667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026451 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Runtime/CmColliderTests.cs
+  artifactKey: Guid(2db7dd9c3def4ff3b77fbedd84cdac33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Runtime/CmColliderTests.cs using Guid(2db7dd9c3def4ff3b77fbedd84cdac33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88f0b2d398c525617571b18c2fd43303') in 0.001259125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/SignalSourceAsset.cs
+  artifactKey: Guid(cebc3fe47a919524eb4a977f726a484e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/SignalSourceAsset.cs using Guid(cebc3fe47a919524eb4a977f726a484e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87093601dee41aca89655801a58155d6') in 0.001222958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineStateDrivenCameraEditor.cs
+  artifactKey: Guid(0eb9f23cde3a1734da334cfa0831dd25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineStateDrivenCameraEditor.cs using Guid(0eb9f23cde3a1734da334cfa0831dd25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15af769d3201460b00d2ac5a4a342737') in 0.001359666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Runtime/ClearShotTests.cs
+  artifactKey: Guid(dc4f6be45bb140019008b7ceafec1edc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Runtime/ClearShotTests.cs using Guid(dc4f6be45bb140019008b7ceafec1edc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18b80384d4ec9deb7bd954be0791ba4f') in 0.001274417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark/TrackedObjectOffset.png
+  artifactKey: Guid(1edfbc3a6b2e0423483a2af98a4bb746) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark/TrackedObjectOffset.png using Guid(1edfbc3a6b2e0423483a2af98a4bb746) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c868c0667d8adebe151a55fa5f155f1f') in 0.002569417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseManager.cs
+  artifactKey: Guid(eb25eb9c85a88c94aa253071e03aca6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseManager.cs using Guid(eb25eb9c85a88c94aa253071e03aca6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eaa36c0881cc98e7d18c343ae11719eb') in 0.00118925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.cinemachine/Editor/PostProcessing
+  artifactKey: Guid(0e25865eefe5b6f40a615add150c0042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/PostProcessing using Guid(0e25865eefe5b6f40a615add150c0042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85b1228a8aa408bb5002c667fd4d4195') in 0.0011865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLockToTarget.cs
+  artifactKey: Guid(36d1163fa822e8b418a0a603ec078d5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLockToTarget.cs using Guid(36d1163fa822e8b418a0a603ec078d5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d654873aabbe0f246b031ac2cd36185') in 0.001894375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseSource.cs
+  artifactKey: Guid(180ecf9b41d478f468eb3e9083753217) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseSource.cs using Guid(180ecf9b41d478f468eb3e9083753217) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e0b9e4f7baeaa13b7a85f71b20f575d') in 0.001218375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseEnvelopePropertyDrawer.cs
+  artifactKey: Guid(fdb859783dabdca44be0ea05d1203b30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseEnvelopePropertyDrawer.cs using Guid(fdb859783dabdca44be0ea05d1203b30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbbc64fdef4a5a7d108b42d44c1c559b') in 0.001378584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/StdLib.hlsl
+  artifactKey: Guid(f34d110791e602a418f182fbec6b699d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/StdLib.hlsl using Guid(f34d110791e602a418f182fbec6b699d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f602643488d828996a1e3dcc8f0f6b7b') in 0.001354375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark-Selected
+  artifactKey: Guid(0e325619dfd3c438a8b622eec81fe341) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark-Selected using Guid(0e325619dfd3c438a8b622eec81fe341) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '389eb5ec9183a86af08b6987633c8998') in 0.001205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.cinemachine/Editor/PostProcessing/CinemachinePostProcessingEditor.cs
+  artifactKey: Guid(dec69862942cc9744ade63216979cafd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/PostProcessing/CinemachinePostProcessingEditor.cs using Guid(dec69862942cc9744ade63216979cafd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '077b3df92829f9778b1207402307c337') in 0.001348208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineComposerEditor.cs
+  artifactKey: Guid(2bb09c3bc24a82648a2e4fc008a28d8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineComposerEditor.cs using Guid(2bb09c3bc24a82648a2e4fc008a28d8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2dbb84a80b3af8a2b1b069ede538a516') in 0.001454958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components/CinemachineComposer.cs
+  artifactKey: Guid(f4044717213e31446939f7bd49c896ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components/CinemachineComposer.cs using Guid(f4044717213e31446939f7bd49c896ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57f9cb3b48bf13f39835864de3c81f0d') in 0.001178042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLookAt.cs
+  artifactKey: Guid(1e8b78ac948f05a46a6d8339a503172b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLookAt.cs using Guid(1e8b78ac948f05a46a6d8339a503172b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2b4c4f5205a70a452b47e827401afb7') in 0.001350792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCameraOffset.cs
+  artifactKey: Guid(44d70cc20219cd84593f67d248eafe36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCameraOffset.cs using Guid(44d70cc20219cd84593f67d248eafe36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5365889b2d374ed7aebb06f0ff8e2934') in 0.001501959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Editor
+  artifactKey: Guid(6e777018b430d974e998e37835f8da69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Editor using Guid(6e777018b430d974e998e37835f8da69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6978dbd29e247859bc5eed31d986bab') in 0.001213292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Packages/com.unity.cinemachine/Gizmos/cm_logo.png
+  artifactKey: Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Gizmos/cm_logo.png using Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfc508c456125477c7e7bbe3e944ef57') in 0.003352541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/SceneToolsLabelBackground.png
+  artifactKey: Guid(5ca5d3d4919ce4b4bbbc4e3c67bf6320) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/SceneToolsLabelBackground.png using Guid(5ca5d3d4919ce4b4bbbc4e3c67bf6320) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd8b93a796ebb7b13a59d217e96e232e') in 0.002595125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/GaussianFilter.cs
+  artifactKey: Guid(68839a4bf8790cd449d4043f5efb5aec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/GaussianFilter.cs using Guid(68839a4bf8790cd449d4043f5efb5aec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5ef283fd933dc7e73bf27a095ed2dc6') in 0.001030208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/com.unity.cinemachine.asmdef
+  artifactKey: Guid(4307f53044263cf4b835bd812fc161a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/com.unity.cinemachine.asmdef using Guid(4307f53044263cf4b835bd812fc161a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c6ecdb66decb976b2fd49431f034777') in 0.001618625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraEditor.cs
+  artifactKey: Guid(a63f9f2267c36684e855add13ad5499f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraEditor.cs using Guid(a63f9f2267c36684e855add13ad5499f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ee4a29d7d8767b8746ce3dc64abd144') in 0.001413125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Helpers/GroupWeightManipulator.cs
+  artifactKey: Guid(65eebf71eb882124fa7f75085f367e5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Helpers/GroupWeightManipulator.cs using Guid(65eebf71eb882124fa7f75085f367e5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b9f0d95b7b12291c9e4e8698e426d5c') in 0.001601417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineBrainEditor.cs
+  artifactKey: Guid(711aad28b4057bd4783120e26ff2ee25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineBrainEditor.cs using Guid(711aad28b4057bd4783120e26ff2ee25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01ebbf646b5434a5345abb842713275f') in 0.001490542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Cinemachine_header.tif
+  artifactKey: Guid(372fe04232d5ed94d8d71524616c1543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Cinemachine_header.tif using Guid(372fe04232d5ed94d8d71524616c1543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '761f0e5bf81d6107373047700cd54105') in 0.003468792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineMixingCameraEditor.cs
+  artifactKey: Guid(8ad60cb17f7694c43a8190c617281753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineMixingCameraEditor.cs using Guid(8ad60cb17f7694c43a8190c617281753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7b4ead42fa5740880defe739eee4d31') in 0.00117125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.cinemachine/Runtime
+  artifactKey: Guid(4948b50a839a1c6419fdd70e2555ba44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime using Guid(4948b50a839a1c6419fdd70e2555ba44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5149ab1bcd8e5de35ef8b128535b7f78') in 0.001000708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Components
+  artifactKey: Guid(0fafdc3d4f989ff48803e7d870539b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Components using Guid(0fafdc3d4f989ff48803e7d870539b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff60243068769c33673d8a7409593e13') in 0.001396166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark-Selected/FOV.png
+  artifactKey: Guid(321dd32fc6122420299d8fb7978c77cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark-Selected/FOV.png using Guid(321dd32fc6122420299d8fb7978c77cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '089020bba339e76246fec4acbba02601') in 0.002635708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Editor/ScriptableObjectUtilityTests.cs
+  artifactKey: Guid(ab4b083fcd6654652a9b8d3378e6e1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Editor/ScriptableObjectUtilityTests.cs using Guid(ab4b083fcd6654652a9b8d3378e6e1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a961ced4661ea6cfde4b1451a4b29904') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.cinemachine/ValidationExceptions.json
+  artifactKey: Guid(417c01280e31342a895bf075b2e3a7ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/ValidationExceptions.json using Guid(417c01280e31342a895bf075b2e3a7ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d9d9727b82572778ff2295674e08cbe') in 0.00106525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Runtime/BrainTargetOverrideTests.cs
+  artifactKey: Guid(05a0e141febe431a9d24a358a0a4d929) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Runtime/BrainTargetOverrideTests.cs using Guid(05a0e141febe431a9d24a358a0a4d929) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '447a5585300c84ec4165827b46ff7b22') in 0.001181875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.cinemachine/Editor/PropertyDrawers
+  artifactKey: Guid(31c3ab7d86d07034eb528155d40c016b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/PropertyDrawers using Guid(31c3ab7d86d07034eb528155d40c016b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02e19f39790e3fb6c3f6cf148c52c150') in 0.001165959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineFollowZoom.cs
+  artifactKey: Guid(4700f9f03ad19f94baf0367cb7a9c988) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineFollowZoom.cs using Guid(4700f9f03ad19f94baf0367cb7a9c988) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '930f7fa23b2a8e47dad6ca59bd689667') in 0.001410334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineBlendListCameraEditor.cs
+  artifactKey: Guid(0181db608628b494d8ae50728e507ce1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineBlendListCameraEditor.cs using Guid(0181db608628b494d8ae50728e507ce1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c11d9adf14e35d93319ba22cfb9d5575') in 0.001319667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseListener.cs
+  artifactKey: Guid(00b2d199b96b516448144ab30fb26aed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseListener.cs using Guid(00b2d199b96b516448144ab30fb26aed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3264194a37756954184d072d0ccee0ca') in 0.001412792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineConfinerEditor.cs
+  artifactKey: Guid(3f7c779802a73d5448e38af7c39fbaa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineConfinerEditor.cs using Guid(3f7c779802a73d5448e38af7c39fbaa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d2e74b48c66bf4f7db90ba53f4163d8') in 0.001835834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Packages/com.unity.cinemachine/CHANGELOG.md
+  artifactKey: Guid(5961b2a4e47c5db438e1234cf03a2a09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/CHANGELOG.md using Guid(5961b2a4e47c5db438e1234cf03a2a09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07283f9a251693b38898739cca36fd0d') in 0.001242958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineTagFieldPropertyDrawer.cs
+  artifactKey: Guid(ed3efd28525441947b55ec9b5d68ba31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineTagFieldPropertyDrawer.cs using Guid(ed3efd28525441947b55ec9b5d68ba31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26ec0978db795d68e61955a3531f1759') in 0.0013585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark/FarNearClip.png
+  artifactKey: Guid(ada37388502cc47db96a985a8eeca2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Dark/FarNearClip.png using Guid(ada37388502cc47db96a985a8eeca2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0816e8a68cbd07be9735c8b471313604') in 0.002739625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/CinemachineDebug.cs
+  artifactKey: Guid(10e6f8c815d3c4d45b1d98b951d53912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/CinemachineDebug.cs using Guid(10e6f8c815d3c4d45b1d98b951d53912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08d0721fd55e9ec6819200e4e0b00675') in 0.001107292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseDefinition.cs
+  artifactKey: Guid(829b8a241d4653446a2cb2436c262305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseDefinition.cs using Guid(829b8a241d4653446a2cb2436c262305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '025806ebf6238dc3df9e9337d4409b4f') in 0.001302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Experimental
+  artifactKey: Guid(382e34fa2b7177e4589888b9fb25567e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Experimental using Guid(382e34fa2b7177e4589888b9fb25567e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7bdc03f77c584ce8d4792ed7dba9405') in 0.001177583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineClearShot.cs
+  artifactKey: Guid(d62f748f5292bb343be9e6b0c84416d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineClearShot.cs using Guid(d62f748f5292bb343be9e6b0c84416d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3707b4f0e6a3809c7a0926ec9fb18b8') in 0.001593416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.cinemachine/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs
+  artifactKey: Guid(cd1b3b6848c215f4cba3ace2c38f9bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs using Guid(cd1b3b6848c215f4cba3ace2c38f9bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fedd9b92e44dc95ad6588c83bf08d28') in 0.001288292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Runtime
+  artifactKey: Guid(8bc4fc3f7edf4174fa4f4877f6aa4e2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Runtime using Guid(8bc4fc3f7edf4174fa4f4877f6aa4e2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33b6e468dd6c1ef64c4e16a74a069786') in 0.001117667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/Cinemachine3rdPersonFollowEditor.cs
+  artifactKey: Guid(137fce2acc78adb45b30ac59c3b89b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/Cinemachine3rdPersonFollowEditor.cs using Guid(137fce2acc78adb45b30ac59c3b89b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7acb1987efc9af6be4f26346a02d9a54') in 0.001331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light-Selected/FOV.png
+  artifactKey: Guid(caaef75bbc86548719301167f1fff52b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/Light-Selected/FOV.png using Guid(caaef75bbc86548719301167f1fff52b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2413ed8b5a9a00d92169747f70861f8f') in 0.003614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Menus
+  artifactKey: Guid(d093acf2bada69e4bbbcf0a8b4534919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Menus using Guid(d093acf2bada69e4bbbcf0a8b4534919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbce8425129801546d96524cb3e628f0') in 0.001035791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096322 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBlendListCamera.cs
+  artifactKey: Guid(53258ad9ad6e71e48bb8643c9522112e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBlendListCamera.cs using Guid(53258ad9ad6e71e48bb8643c9522112e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f94e00dbdae201a86c141cc87c736f9d') in 0.001495916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineBasicMultiChannelPerlinEditor.cs
+  artifactKey: Guid(ee42f1964a0e8224c90be81905946699) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineBasicMultiChannelPerlinEditor.cs using Guid(ee42f1964a0e8224c90be81905946699) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '859e324beb56537d83cd3a8a685bbf2b') in 0.001452167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineBlendDefinitionPropertyDrawer.cs
+  artifactKey: Guid(4a9c464b0191f7d4da1d129d97d8240b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineBlendDefinitionPropertyDrawer.cs using Guid(4a9c464b0191f7d4da1d129d97d8240b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba4b21a204f67342c4a46814345a6b3a') in 0.00175075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputActions.inputactions
+  artifactKey: Guid(779ec90fde5150045aad8f8c0c364448) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputActions.inputactions using Guid(779ec90fde5150045aad8f8c0c364448) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdba66b18a744829d725543ec5402c29') in 0.089845458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Prefabs/Player.prefab
+  artifactKey: Guid(8df91cb297f60c04c9706753ea914b78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Prefabs/Player.prefab using Guid(8df91cb297f60c04c9706753ea914b78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d47b992d4ffcad9c52943b47adff98f') in 0.025228167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 87
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Menus/CinemachineMenu.cs
+  artifactKey: Guid(54b24e51e2a9fa242b38d80ee11f3b2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Menus/CinemachineMenu.cs using Guid(54b24e51e2a9fa242b38d80ee11f3b2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6e306a2b338e297a007460a95712929') in 0.001416584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Prefabs/Platform.prefab
+  artifactKey: Guid(8aba10223e62afd4abf755c049b6e672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Prefabs/Platform.prefab using Guid(8aba10223e62afd4abf755c049b6e672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06964b5d8cd0caba5c23a5e966cae621') in 0.004068041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/PlayerIdleState.cs
+  artifactKey: Guid(4affff22fbc51e04abf60af898282752) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/PlayerIdleState.cs using Guid(4affff22fbc51e04abf60af898282752) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b587c783b229c87050000221833f66d1') in 0.001298584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System
+  artifactKey: Guid(b1252e11f796bcc4da0fc0dd20a9d017) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System using Guid(b1252e11f796bcc4da0fc0dd20a9d017) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf1aa6c4b2e1a38a01c1a3d92224b668') in 0.001117917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/Interfaces/IInterfaces.cs
+  artifactKey: Guid(755f2e21298bdb349896a9a86769c4ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/Interfaces/IInterfaces.cs using Guid(755f2e21298bdb349896a9a86769c4ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c64214c4a3e766f19e94f749dc898389') in 0.001364542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerExtraJump1.anim
+  artifactKey: Guid(4c16a1a6e18d3124db2b90e568ede7b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerExtraJump1.anim using Guid(4c16a1a6e18d3124db2b90e568ede7b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df5e6b9c50fd31996c8f2139f19a58b3') in 0.004132167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Impulse
+  artifactKey: Guid(e2408873163918f4da4afc37c51b1586) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Impulse using Guid(e2408873163918f4da4afc37c51b1586) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '663e1fdde2e88e6e5f59b018ad996c72') in 0.000974417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/CinemachineExtension.cs
+  artifactKey: Guid(4fa53a91a43ae1a4bbf6b29961b45c38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/CinemachineExtension.cs using Guid(4fa53a91a43ae1a4bbf6b29961b45c38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ded01741c28b6f402105b07ad04683e') in 0.001346125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/PlayerWallGrabState.cs
+  artifactKey: Guid(3f761d2c77e549f4a8dd7ff78e36b1bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/PlayerWallGrabState.cs using Guid(3f761d2c77e549f4a8dd7ff78e36b1bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b3d526e70871ced2617845fc0043810') in 0.001152292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials
+  artifactKey: Guid(1de74597a8217a548bc1a678f70b048b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials using Guid(1de74597a8217a548bc1a678f70b048b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f11c1abde167fae933285229d627975b') in 0.001236417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.cinemachine/license.txt
+  artifactKey: Guid(3958e97119b89b14893728476c991114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/license.txt using Guid(3958e97119b89b14893728476c991114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69997ada2d689dc4d7cd8c247a8bc562') in 0.001310084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/AxisState.cs
+  artifactKey: Guid(557c6f70a7173744abaa3967b6da6f5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/AxisState.cs using Guid(557c6f70a7173744abaa3967b6da6f5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36a201cd3ee33ac3e6ac517b0ed50aea') in 0.001353167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States
+  artifactKey: Guid(b5b3ee7362648df4da9fefac28d0631a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States using Guid(b5b3ee7362648df4da9fefac28d0631a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16f806d6a78b3e7486282296c32074d1') in 0.00117925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Custom Attributes/NonEditableAttribute.cs
+  artifactKey: Guid(1923739f22f596643bfc0ec030eb5363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Custom Attributes/NonEditableAttribute.cs using Guid(1923739f22f596643bfc0ec030eb5363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6e95ba3f3af4338a1640368dce906dd') in 0.001289208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Materials/ZeroFriction.physicsMaterial2D
+  artifactKey: Guid(7b5ba42aecac46e4fbfbdc43a0b4116f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Materials/ZeroFriction.physicsMaterial2D using Guid(7b5ba42aecac46e4fbfbdc43a0b4116f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '337be39752435e4bdafa180dd8b0fbce') in 0.00143025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Materials
+  artifactKey: Guid(daab8354d3caef4409c3560a88c3da38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Materials using Guid(daab8354d3caef4409c3560a88c3da38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60e7cc2ce642a80da1a4b1f1d7d10848') in 0.001118583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scenes/TestScene_PC.unity
+  artifactKey: Guid(a476dc8b7c3033346ac2f60ee9ce28c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scenes/TestScene_PC.unity using Guid(a476dc8b7c3033346ac2f60ee9ce28c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78677b0c2c5ec85121567038888f23fd') in 0.002205125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Packages/com.unity.cinemachine/LICENSE.md
+  artifactKey: Guid(320f1f07d0845624cb1b7a4839826250) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/LICENSE.md using Guid(320f1f07d0845624cb1b7a4839826250) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73d579731957712c8387c049ff6bf138') in 0.001641667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputManager/PlayerInputManager.cs
+  artifactKey: Guid(8f68b522c39350442af03c4f4fd577f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputManager/PlayerInputManager.cs using Guid(8f68b522c39350442af03c4f4fd577f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c2bf23222d501b54528d49130ccb94b') in 0.002529041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/PlayerMain.cs
+  artifactKey: Guid(d6b998c27e145394681709518387b450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/PlayerMain.cs using Guid(d6b998c27e145394681709518387b450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a4b49cefbd15c27c1f29a76db49fbb5') in 0.001395875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Custom Attributes/InformAttribute.cs
+  artifactKey: Guid(d0a52d092bac4604fb21ca6bbb9b3790) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Custom Attributes/InformAttribute.cs using Guid(d0a52d092bac4604fb21ca6bbb9b3790) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18d99aa0f95baf8d6a7d96085e515493') in 0.001311791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/PostProcessing/CinemachinePostProcessing.cs
+  artifactKey: Guid(729aad4491e915a41bda2b8325cf757a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/PostProcessing/CinemachinePostProcessing.cs using Guid(729aad4491e915a41bda2b8325cf757a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '533d62cb34a0f80188d298b975abc32b') in 0.001599834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerWallGrab.anim
+  artifactKey: Guid(28e7cb4b12bb44d49abc139ea1e7224d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerWallGrab.anim using Guid(28e7cb4b12bb44d49abc139ea1e7224d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cfb2e61abaff3b517b60738ee36f4a3') in 0.001617875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System
+  artifactKey: Guid(7d01bfbe439ec664aaec8b6ac6518a5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System using Guid(7d01bfbe439ec664aaec8b6ac6518a5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3037c94f51e63fd44ba8d69a4f41a648') in 0.001285375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Extensions
+  artifactKey: Guid(9c968b3977e9ada4a9322872ce22ed1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Extensions using Guid(9c968b3977e9ada4a9322872ce22ed1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90182971885de184c56179cab458daf2') in 0.001311584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/Interfaces
+  artifactKey: Guid(73fcde15d2fa026408a8f94f7fa69c13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/Interfaces using Guid(73fcde15d2fa026408a8f94f7fa69c13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dee6e17cd11d41b11a00bf8c7a92169b') in 0.00145875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/PlayerWalkState.cs
+  artifactKey: Guid(7224009a464bcad42831005948cae813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State System/Child States/PlayerWalkState.cs using Guid(7224009a464bcad42831005948cae813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '934b78b3521e3667fa805889884e56a8') in 0.001305875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerDash.anim
+  artifactKey: Guid(4c5ce55b445cf0d4b8db057ffc63512e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerDash.anim using Guid(4c5ce55b445cf0d4b8db057ffc63512e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab057a0a77cb948ce7a8b350b919987a') in 0.001688791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerLand.anim
+  artifactKey: Guid(320eff08386aaff4cb0979dfe0750a3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerLand.anim using Guid(320eff08386aaff4cb0979dfe0750a3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1652137c50f2d2b767294cfe7289eade') in 0.001750833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/CMWaveform.shader
+  artifactKey: Guid(e4e5d566a8aa9914c906555a6857fcb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/CMWaveform.shader using Guid(e4e5d566a8aa9914c906555a6857fcb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '028fea844e34b5b9dbf1f0bd80d771b3') in 0.003262209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Prefabs/Swinging Platform.prefab
+  artifactKey: Guid(731214648d30c034fbcc78e5cc82cadb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Prefabs/Swinging Platform.prefab using Guid(731214648d30c034fbcc78e5cc82cadb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '610986754c3a56eb10ee42631e46598e') in 0.002205125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Platform Movement/Platform.cs
+  artifactKey: Guid(ec5eb3b2ae38d0e4c91720a8c04c5a5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Platform Movement/Platform.cs using Guid(ec5eb3b2ae38d0e4c91720a8c04c5a5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '066b78e157c10d2fac36b7024252f010') in 0.001325916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/ICinemachineComponent.cs
+  artifactKey: Guid(9a53087ba28aaf145a184ea363108831) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/ICinemachineComponent.cs using Guid(9a53087ba28aaf145a184ea363108831) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa27e6b5cdbfd91b43f6cecfb25a1120') in 0.00139875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerCrouchIdle.anim
+  artifactKey: Guid(1353e05c8a23a0c41ab5983719cc7836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerCrouchIdle.anim using Guid(1353e05c8a23a0c41ab5983719cc7836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '117758d0140994cfce18485329a3035d') in 0.00200875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/CinemachineCore.cs
+  artifactKey: Guid(c7d73314dfe49f8458398c6dc8edcda8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/CinemachineCore.cs using Guid(c7d73314dfe49f8458398c6dc8edcda8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3d23d586f86347e904df6a3aa07dba0') in 0.001353458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerWallClimb.anim
+  artifactKey: Guid(7e7b0529762a66d4195af9640ea08342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerWallClimb.anim using Guid(7e7b0529762a66d4195af9640ea08342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7ac1855c5dd0971418cab98f9b61617') in 0.001785125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Windows/WaveformWindow.cs
+  artifactKey: Guid(a8725b08dfa3851468b1f029bb53c966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Windows/WaveformWindow.cs using Guid(a8725b08dfa3851468b1f029bb53c966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd71ab9801c399c0706f770cf20f9170') in 0.00147575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/CameraState.cs
+  artifactKey: Guid(c2a918f460a69394eb9726b31e1d404c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/CameraState.cs using Guid(c2a918f460a69394eb9726b31e1d404c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b96f468e373002808c29054afd76244b') in 0.001308667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations
+  artifactKey: Guid(c3a029a7a4ffb194188413f25c939674) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations using Guid(c3a029a7a4ffb194188413f25c939674) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59ec747bb76eddf5f8e5f0a777024a1e') in 0.001132167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerIdle.anim
+  artifactKey: Guid(5e5a40a247fe14f4da62363ee19c0573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerIdle.anim using Guid(5e5a40a247fe14f4da62363ee19c0573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1d356429a148b070356118e90cbdb16') in 0.001826334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputManager
+  artifactKey: Guid(8b9ea78d6f231f248aaddae6efa6bc18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Input System/InputManager using Guid(8b9ea78d6f231f248aaddae6efa6bc18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '069d27992382f7463f1e01d398432270') in 0.001255125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachineStoryboardEditor.cs
+  artifactKey: Guid(a9e63e62da42ce141b35602019323584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachineStoryboardEditor.cs using Guid(a9e63e62da42ce141b35602019323584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c726f4af41ea906538c0418ba0e8f52') in 0.001321208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Windows
+  artifactKey: Guid(9c644b247df49ee47957d373411a85c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Windows using Guid(9c644b247df49ee47957d373411a85c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7df0994c5069f7a20cc93671fe0256ee') in 0.00117775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.cinemachine/Runtime/Core/CinemachineComponentBase.cs
+  artifactKey: Guid(b2f73bdc979030e419f33c10913639cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Runtime/Core/CinemachineComponentBase.cs using Guid(b2f73bdc979030e419f33c10913639cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5b55955fe0230f13a4cb0731dbecd47') in 0.001303584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.cinemachine/Tests/Runtime/CameraPositionTests.cs
+  artifactKey: Guid(e4a187608e05245eabbd161398c3d6fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Tests/Runtime/CameraPositionTests.cs using Guid(e4a187608e05245eabbd161398c3d6fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4163f9e6214362276e7abaf1d705befe') in 0.0012745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.cinemachine/Editor/Editors/CinemachinePOVEditor.cs
+  artifactKey: Guid(1186b8795dc3fc84e8ec53bd314d8e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/Editors/CinemachinePOVEditor.cs using Guid(1186b8795dc3fc84e8ec53bd314d8e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df61e0744ca9c6f0301853081db07221') in 0.001494792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Projects
+  artifactKey: Guid(95cae500c93b64b66a28141bf91cdfd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Projects using Guid(95cae500c93b64b66a28141bf91cdfd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21a2559d46cc5d08732bb6dfa41044f6') in 0.001265792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Handles/FreelookRigTop.png
+  artifactKey: Guid(73aa031d2843e47a3a18d390a8ce7c22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Handles/FreelookRigTop.png using Guid(73aa031d2843e47a3a18d390a8ce7c22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f60f3fff1c79c027d01e90caa06a301') in 0.002781667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7343 unused Assets / (3.2 MB). Loaded Objects now: 8179.
+Memory consumption went from 169.1 MB to 165.8 MB.
+Total: 5.905708 ms (FindLiveObjects: 0.245667 ms CreateObjectMapping: 0.215500 ms MarkObjects: 4.424709 ms  DeleteObjects: 1.019583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16c1af000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.355 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 704ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (346ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7358 unused Assets / (3.3 MB). Loaded Objects now: 8182.
+Memory consumption went from 177.7 MB to 174.4 MB.
+Total: 4.992667 ms (FindLiveObjects: 0.252875 ms CreateObjectMapping: 0.210000 ms MarkObjects: 3.368541 ms  DeleteObjects: 1.160959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16c1af000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.414 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.357 seconds
+Domain Reload Profiling: 774ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (357ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7358 unused Assets / (2.0 MB). Loaded Objects now: 8185.
+Memory consumption went from 168.9 MB to 166.8 MB.
+Total: 5.033958 ms (FindLiveObjects: 0.266625 ms CreateObjectMapping: 0.244334 ms MarkObjects: 3.562541 ms  DeleteObjects: 0.960208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
