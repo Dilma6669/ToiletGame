@@ -4,12 +4,21 @@ namespace UltimateCC
 {
     public class Platform : MonoBehaviour
     {
+        public enum Axis { Horizontal, Vertical }
+        [SerializeField] private Axis movementAxis = Axis.Horizontal;
         [SerializeField] private Vector2 rightBorderOffset;
         [SerializeField] private Vector2 leftBorderOffset;
+        [SerializeField] private Vector2 topBorderOffset;
+        [SerializeField] private Vector2 bottomBorderOffset;
+        [SerializeField] private float pauseDuration = 1f;
+        [SerializeField] private float stopInterval = 5f; // Interval in world space units to pause on
         private Vector2 startPoint;
         [SerializeField, Range(-1, 1)] private int direction;
         [SerializeField] private float speed;
         Rigidbody2D rb;
+
+        private float pauseTimer;
+        private float nextPauseY;
 
         void Start()
         {
@@ -19,6 +28,15 @@ namespace UltimateCC
                 direction = 1;
             }
             rb = GetComponent<Rigidbody2D>();
+
+            if (movementAxis == Axis.Vertical && stopInterval > 0f)
+            {
+                nextPauseY = Mathf.Round(transform.position.y / stopInterval) * stopInterval;
+                if (Mathf.Abs(transform.position.y - nextPauseY) < 0.01f)
+                {
+                    nextPauseY += direction * stopInterval;
+                }
+            }
         }
 
         void FixedUpdate()
@@ -28,36 +46,130 @@ namespace UltimateCC
 
         private void PlatformMovement()
         {
-            if (direction == 1)
+            if (movementAxis == Axis.Horizontal)
             {
-                if (transform.position.x < startPoint.x)
+                if (direction == 1)
                 {
-                    rb.linearVelocity = new Vector2(direction * speed, 0);
+                    if (transform.position.x < startPoint.x)
+                    {
+                        rb.linearVelocity = new Vector2(direction * speed, 0);
+                    }
+                    else if (transform.position.x < startPoint.x + rightBorderOffset.x)
+                    {
+                        rb.linearVelocity = new Vector2(direction * speed, 0);
+                    }
+                    else if (transform.position.x >= startPoint.x + rightBorderOffset.x)
+                    {
+                        direction = -1;
+                        rb.linearVelocity = new Vector2(direction * speed, 0);
+                    }
                 }
-                else if (transform.position.x < startPoint.x + rightBorderOffset.x)
+                else if (direction == -1)
                 {
-                    rb.linearVelocity = new Vector2(direction * speed, 0);
-                }
-                else if (transform.position.x >= startPoint.x + rightBorderOffset.x)
-                {
-                    direction = -1;
-                    rb.linearVelocity = new Vector2(direction * speed, 0);
+                    if (transform.position.x > startPoint.x + startPoint.x)
+                    {
+                        rb.linearVelocity = new Vector2(direction * speed, 0);
+                    }
+                    else if (transform.position.x > startPoint.x + leftBorderOffset.x)
+                    {
+                        rb.linearVelocity = new Vector2(direction * speed, 0);
+                    }
+                    else if (transform.position.x <= startPoint.x + leftBorderOffset.x)
+                    {
+                        direction = 1;
+                        rb.linearVelocity = new Vector2(direction * speed, 0);
+                    }
                 }
             }
-            else if (direction == -1)
+            else
             {
-                if (transform.position.x > startPoint.x + startPoint.x)
+                if (pauseTimer > 0f)
                 {
-                    rb.linearVelocity = new Vector2(direction * speed, 0);
+                    pauseTimer -= Time.fixedDeltaTime;
+                    rb.linearVelocity = Vector2.zero;
+                    return;
                 }
-                else if (transform.position.x > startPoint.x + leftBorderOffset.x)
+
+                if (stopInterval <= 0f)
                 {
-                    rb.linearVelocity = new Vector2(direction * speed, 0);
+                    // Fallback if interval is 0 or negative
+                    HandleStandardVerticalMovement();
+                    return;
                 }
-                else if (transform.position.x <= startPoint.x + leftBorderOffset.x)
+
+                if (direction == 1)
+                {
+                    if (transform.position.y >= nextPauseY)
+                    {
+                        pauseTimer = pauseDuration;
+                        nextPauseY += stopInterval;
+                        rb.linearVelocity = Vector2.zero;
+                        return;
+                    }
+
+                    if (transform.position.y < startPoint.y)
+                    {
+                        rb.linearVelocity = new Vector2(0, direction * speed);
+                    }
+                    else if (transform.position.y < startPoint.y + topBorderOffset.y)
+                    {
+                        rb.linearVelocity = new Vector2(0, direction * speed);
+                    }
+                    else if (transform.position.y >= startPoint.y + topBorderOffset.y)
+                    {
+                        direction = -1;
+                        nextPauseY = transform.position.y - stopInterval;
+                        rb.linearVelocity = new Vector2(0, direction * speed);
+                    }
+                }
+                else if (direction == -1)
+                {
+                    if (transform.position.y <= nextPauseY)
+                    {
+                        pauseTimer = pauseDuration;
+                        nextPauseY -= stopInterval;
+                        rb.linearVelocity = Vector2.zero;
+                        return;
+                    }
+
+                    if (transform.position.y > startPoint.y + bottomBorderOffset.y)
+                    {
+                        rb.linearVelocity = new Vector2(0, direction * speed);
+                    }
+                    else if (transform.position.y <= startPoint.y + bottomBorderOffset.y)
+                    {
+                        direction = 1;
+                        nextPauseY = transform.position.y + stopInterval;
+                        rb.linearVelocity = new Vector2(0, direction * speed);
+                    }
+                }
+            }
+        }
+
+        private void HandleStandardVerticalMovement()
+        {
+            if (direction == 1)
+            {
+                if (transform.position.y < startPoint.y || transform.position.y < startPoint.y + topBorderOffset.y)
+                {
+                    rb.linearVelocity = new Vector2(0, direction * speed);
+                }
+                else
+                {
+                    direction = -1;
+                    rb.linearVelocity = new Vector2(0, direction * speed);
+                }
+            }
+            else
+            {
+                if (transform.position.y > startPoint.y + bottomBorderOffset.y)
+                {
+                    rb.linearVelocity = new Vector2(0, direction * speed);
+                }
+                else
                 {
                     direction = 1;
-                    rb.linearVelocity = new Vector2(direction * speed, 0);
+                    rb.linearVelocity = new Vector2(0, direction * speed);
                 }
             }
         }

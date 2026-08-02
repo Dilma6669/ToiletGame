@@ -27,7 +27,7 @@ namespace UltimateCC
             
             // Default state: ignore ramp by default until entered and evaluated
             if (upRamp != null) Physics2D.IgnoreCollision(playerCollider, upRamp, true);
-            //if (downRamp != null) Physics2D.IgnoreCollision(playerCollider, downRamp, true);
+            if (downRamp != null) Physics2D.IgnoreCollision(playerCollider, downRamp, true);
         }
         
         private void OnTriggerStay2D(Collider2D other)
@@ -48,8 +48,8 @@ namespace UltimateCC
             if (upRamp != null)
                 Physics2D.IgnoreCollision(playerCollider, upRamp, shouldIgnore);
 
-            // if (downRamp != null)
-            //     Physics2D.IgnoreCollision(playerCollider, downRamp, shouldIgnore);
+            if (downRamp != null)
+                Physics2D.IgnoreCollision(playerCollider, downRamp, shouldIgnore);
         }
 
         private void OnTriggerExit2D(Collider2D other)
