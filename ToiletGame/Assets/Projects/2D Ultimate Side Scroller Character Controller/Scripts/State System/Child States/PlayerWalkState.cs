@@ -79,6 +79,8 @@ namespace UltimateCC
 
         public void Move1D()
         {
+            Debug.Log($"IsGrounded: {playerData.Physics.IsGrounded}, IsOnNotWalkableSlope: {playerData.Physics.IsOnNotWalkableSlope}, ContactsCount: {playerData.Physics.Contacts.Count}");
+            
             float newVelocity;
             if (playerData.Physics.IsOnNotWalkableSlope && Mathf.Sign(playerData.Physics.ContactPosition.x - player.transform.position.x) == Mathf.Sign(playerData.Physics.FacingDirection)
                 && playerData.Physics.Slope.CurrentSlopeAngle > playerData.Physics.Slope.MaxSlopeAngle)
@@ -96,6 +98,8 @@ namespace UltimateCC
                 rigidbody2D.linearVelocity = new Vector2(newVelocity, rigidbody2D.linearVelocity.y);
             }
             localXVelovity = rigidbody2D.linearVelocity.x;
+            
+            Debug.Log($"Final velocity: {rigidbody2D.linearVelocity}, Position: {rigidbody2D.position}");
         }
         private float VelocityOnX()
         {

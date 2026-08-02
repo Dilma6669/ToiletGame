@@ -7,6 +7,8 @@ namespace UltimateCC
 {
     public static class EssentialPhysics
     {
+        public static bool IgnoreRamps = true;
+        
         // Updates player's facing direction variable at PlayerData.Physics
         public static void SetPlayerFacingDirection(PlayerInputManager inputManager, PlayerMain player, PlayerData playerData)
         {
@@ -63,8 +65,20 @@ namespace UltimateCC
         {
             playerData.Physics.GroundCheckPosition = SetGroundCheckPosition(player, playerData);
             float _offset = -0.01f;
-            RaycastHit2D _hit = Physics2D.CircleCast(playerData.Physics.GroundCheckPosition, player.CapsuleCollider2D.size.x / 2 * Mathf.Abs(player.transform.localScale.x) + _offset, -player.transform.up, 0.2f, playerData.Physics.GroundLayerMask);
-            Debug.DrawRay(_hit.point, _hit.normal, Color.red);
+           // RaycastHit2D _hit = Physics2D.CircleCast(playerData.Physics.GroundCheckPosition, player.CapsuleCollider2D.size.x / 2 * Mathf.Abs(player.transform.localScale.x) + _offset, -player.transform.up, 0.2f, playerData.Physics.GroundLayerMask);
+           
+           RaycastHit2D[] _hits = Physics2D.CircleCastAll(playerData.Physics.GroundCheckPosition, player.CapsuleCollider2D.size.x / 2 * Mathf.Abs(player.transform.localScale.x) + _offset, -player.transform.up, 0.2f, playerData.Physics.GroundLayerMask);
+           RaycastHit2D _hit = new RaycastHit2D();
+           foreach (var h in _hits)
+           {
+               if (!h.collider.isTrigger && !Physics2D.GetIgnoreCollision(player.CapsuleCollider2D, h.collider))
+               {
+                   _hit = h;
+                   break;
+               }
+           }
+           
+           Debug.DrawRay(_hit.point, _hit.normal, Color.red);
             if (_hit)
             {
                 playerData.Physics.IsGrounded = true;
@@ -146,32 +160,90 @@ namespace UltimateCC
 
         public static bool MultipleGroundContactCheck(PlayerMain player, PlayerData playerData)
         {
-            //WalkSpeedDirection
-            //StayStill
-            //IsMultipleContactWithNonWalkableSlope
-            //return IsMultipleContactWithWalkableSlope
-            float _offset = -0.01f;
-            RaycastHit2D _frontHit = Physics2D.CircleCast(playerData.Physics.GroundCheckPosition, player.CapsuleCollider2D.size.x / 2 * Mathf.Abs(player.transform.localScale.x) + _offset, playerData.Physics.FacingDirection * Vector2.right, 0.1f, playerData.Physics.GroundLayerMask);
-            if (playerData.Physics.IsGrounded && !playerData.Physics.IsOnNotWalkableSlope && !playerData.Physics.IsOnCorner && _frontHit && (_frontHit.point - playerData.Physics.ContactPosition).magnitude > 0.1f)
+            if (IgnoreRamps == false)
             {
-                if (Vector2.Angle(playerData.Physics.GroundCheckPosition - _frontHit.point, Vector2.up) > playerData.Physics.Slope.MaxSlopeAngle)
+                //WalkSpeedDirection
+                //StayStill
+                //IsMultipleContactWithNonWalkableSlope
+                //return IsMultipleContactWithWalkableSlope
+                float _offset = -0.01f;
+                RaycastHit2D _frontHit = Physics2D.CircleCast(playerData.Physics.GroundCheckPosition,
+                    player.CapsuleCollider2D.size.x / 2 * Mathf.Abs(player.transform.localScale.x) + _offset,
+                    playerData.Physics.FacingDirection * Vector2.right, 0.1f, playerData.Physics.GroundLayerMask);
+                if (playerData.Physics.IsGrounded && !playerData.Physics.IsOnNotWalkableSlope &&
+                    !playerData.Physics.IsOnCorner && _frontHit &&
+                    (_frontHit.point - playerData.Physics.ContactPosition).magnitude > 0.1f)
                 {
-                    playerData.Physics.IsMultipleContactWithNonWalkableSlope = true;
-                    playerData.Physics.Slope.StayStill = Mathf.Sign(_frontHit.point.x - playerData.Physics.GroundCheckPosition.x) == Mathf.Sign(playerData.Physics.FacingDirection);
-                    return false;
+                    if (Vector2.Angle(playerData.Physics.GroundCheckPosition - _frontHit.point, Vector2.up) >
+                        playerData.Physics.Slope.MaxSlopeAngle)
+                    {
+                        playerData.Physics.IsMultipleContactWithNonWalkableSlope = true;
+                        playerData.Physics.Slope.StayStill =
+                            Mathf.Sign(_frontHit.point.x - playerData.Physics.GroundCheckPosition.x) ==
+                            Mathf.Sign(playerData.Physics.FacingDirection);
+                        return false;
+                    }
+                    else
+                    {
+                        playerData.Physics.WalkSpeedDirection = new Vector2(-1, 0);
+                        playerData.Physics.Slope.StayStill = false;
+                        playerData.Physics.IsMultipleContactWithNonWalkableSlope = false;
+                        return true;
+                    }
                 }
                 else
                 {
-                    playerData.Physics.WalkSpeedDirection = new Vector2(-1, 0);
                     playerData.Physics.Slope.StayStill = false;
                     playerData.Physics.IsMultipleContactWithNonWalkableSlope = false;
-                    return true;
                 }
+
+                return false;
             }
             else
             {
-                playerData.Physics.Slope.StayStill = false;
-                playerData.Physics.IsMultipleContactWithNonWalkableSlope = false;
+                float _offset = -0.01f;
+                RaycastHit2D[] _frontHits = Physics2D.CircleCastAll(playerData.Physics.GroundCheckPosition,
+                    player.CapsuleCollider2D.size.x / 2 * Mathf.Abs(player.transform.localScale.x) + _offset,
+                    playerData.Physics.FacingDirection * Vector2.right, 0.1f, playerData.Physics.GroundLayerMask);
+
+                RaycastHit2D _frontHit = new RaycastHit2D();
+                foreach (var h in _frontHits)
+                {
+                    if (!Physics2D.GetIgnoreCollision(player.CapsuleCollider2D, h.collider))
+                    {
+                        _frontHit = h;
+                        break;
+                    }
+                }
+
+                if (playerData.Physics.IsGrounded && !playerData.Physics.IsOnNotWalkableSlope &&
+                    !playerData.Physics.IsOnCorner && _frontHit &&
+                    (_frontHit.point - playerData.Physics.ContactPosition).magnitude > 0.1f)
+                {
+                    if (Vector2.Angle(playerData.Physics.GroundCheckPosition - _frontHit.point, Vector2.up) >
+                        playerData.Physics.Slope.MaxSlopeAngle)
+                    {
+                        playerData.Physics.IsMultipleContactWithNonWalkableSlope = true;
+                        playerData.Physics.Slope.StayStill =
+                            Mathf.Sign(_frontHit.point.x - playerData.Physics.GroundCheckPosition.x) ==
+                            Mathf.Sign(playerData.Physics.FacingDirection);
+                        return false;
+                    }
+                    else
+                    {
+                        playerData.Physics.WalkSpeedDirection = new Vector2(-1, 0);
+                        playerData.Physics.Slope.StayStill = false;
+                        playerData.Physics.IsMultipleContactWithNonWalkableSlope = false;
+                        return true;
+                    }
+                }
+                else
+                {
+                    playerData.Physics.Slope.StayStill = false;
+                    playerData.Physics.IsMultipleContactWithNonWalkableSlope = false;
+                }
+
+                return false;
             }
             return false;
         }

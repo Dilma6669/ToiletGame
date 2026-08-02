@@ -26,7 +26,7 @@ namespace UltimateCC
             {
                 typeof(PlayerInputManager)
                     .GetField("input_Walk", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)
-                    ?.SetValue(inputManager, 1f);
+                    ?.SetValue(inputManager, 0.2f);
 
                 typeof(PlayerInputManager)
                     .GetField("input_Jump", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)
