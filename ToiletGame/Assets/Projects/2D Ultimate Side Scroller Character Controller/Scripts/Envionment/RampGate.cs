@@ -6,61 +6,58 @@ namespace UltimateCC
 {
     public class RampGate : MonoBehaviour
     {
-        public Collider2D upRamp;
-        public Collider2D downRamp;
+        public Collider2D secondRamp;
+        public Collider2D firstRamp;
 
         public PlayerMain player;
         
-        private void Start()
+        private bool enteredTrigger;
+        
+        private void Update()
         {
-            if (EssentialPhysics.IgnoreRamps == false)
-                return;
-            
-            StartCoroutine(DelayedIgnoreCollision());
-        }
+           // SetRampsToDefault();
 
-        private IEnumerator DelayedIgnoreCollision()
-        {
-            yield return new WaitForSeconds(1);
-            if (player == null) yield break;
-            Collider2D playerCollider = player.CapsuleCollider2D;
-            
-            // Default state: ignore ramp by default until entered and evaluated
-            if (upRamp != null) Physics2D.IgnoreCollision(playerCollider, upRamp, true);
-            if (downRamp != null) Physics2D.IgnoreCollision(playerCollider, downRamp, true);
+            if (enteredTrigger)
+            {
+                float verticalInput = player.InputManager.Input_WallClimb;
+                Collider2D playerCollider = player.CapsuleCollider2D;
+
+                if (verticalInput == 0) // if not pushing up
+                {
+                    Debug.Log($"fuck not pushing up");
+                    if (firstRamp != null)
+                        Physics2D.IgnoreCollision(playerCollider, firstRamp, true);
+                    if (secondRamp != null)
+                        Physics2D.IgnoreCollision(playerCollider, secondRamp, true);
+                }
+                else if (verticalInput == 1) // If pushing up
+                {
+                    Debug.Log($"fuck pushing up");
+                    if (firstRamp != null)
+                        Physics2D.IgnoreCollision(playerCollider, firstRamp, false);
+                    if (secondRamp != null)
+                        Physics2D.IgnoreCollision(playerCollider, secondRamp, true);
+                }
+
+            }
         }
+        
         
         private void OnTriggerStay2D(Collider2D other)
         {
-            if (EssentialPhysics.IgnoreRamps == false)
-                return;
-            
-            PlayerMain targetPlayer = other.GetComponent<PlayerMain>();
-            if (targetPlayer == null) return;
-
-            // Check your vertical input (adjust if your input property name differs)
-            float verticalInput = targetPlayer.InputManager.Input_WallClimb;
-            Collider2D playerCollider = targetPlayer.CapsuleCollider2D;
-
-            // If pressing UP (greater than 0), stop ignoring (walk on it). Otherwise, ignore collision.
-            bool shouldIgnore = verticalInput <= 0f;
-
-            if (upRamp != null)
-                Physics2D.IgnoreCollision(playerCollider, upRamp, shouldIgnore);
-
-            if (downRamp != null)
-                Physics2D.IgnoreCollision(playerCollider, downRamp, shouldIgnore);
+            enteredTrigger = true;
         }
-
+        
         private void OnTriggerExit2D(Collider2D other)
         {
-            PlayerMain targetPlayer = other.GetComponent<PlayerMain>();
-            if (targetPlayer == null) return;
+            enteredTrigger = false;
+        }
 
-            Collider2D playerCollider = targetPlayer.CapsuleCollider2D;
-
-            // Optional: Re-enable ignore or reset when leaving the box if needed, 
-            // or leave it based on your design flow.
+        private void SetRampsToDefault()
+        {
+            Collider2D playerCollider = player.CapsuleCollider2D;
+            if (secondRamp != null) Physics2D.IgnoreCollision(playerCollider, secondRamp, false); 
+            if (firstRamp != null) Physics2D.IgnoreCollision(playerCollider, firstRamp, false);
         }
     }
 }

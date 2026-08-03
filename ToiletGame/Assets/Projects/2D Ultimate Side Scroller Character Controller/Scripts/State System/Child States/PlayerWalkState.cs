@@ -79,7 +79,7 @@ namespace UltimateCC
 
         public void Move1D()
         {
-            Debug.Log($"IsGrounded: {playerData.Physics.IsGrounded}, IsOnNotWalkableSlope: {playerData.Physics.IsOnNotWalkableSlope}, ContactsCount: {playerData.Physics.Contacts.Count}");
+           // Debug.Log($"IsGrounded: {playerData.Physics.IsGrounded}, IsOnNotWalkableSlope: {playerData.Physics.IsOnNotWalkableSlope}, ContactsCount: {playerData.Physics.Contacts.Count}");
             
             float newVelocity;
             if (playerData.Physics.IsOnNotWalkableSlope && Mathf.Sign(playerData.Physics.ContactPosition.x - player.transform.position.x) == Mathf.Sign(playerData.Physics.FacingDirection)
@@ -99,7 +99,7 @@ namespace UltimateCC
             }
             localXVelovity = rigidbody2D.linearVelocity.x;
             
-            Debug.Log($"Final velocity: {rigidbody2D.linearVelocity}, Position: {rigidbody2D.position}");
+         //   Debug.Log($"Final velocity: {rigidbody2D.linearVelocity}, Position: {rigidbody2D.position}");
         }
         private float VelocityOnX()
         {

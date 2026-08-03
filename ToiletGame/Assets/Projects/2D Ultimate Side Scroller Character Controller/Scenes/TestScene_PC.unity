@@ -579,8 +579,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 1061698380}
-  downRamp: {fileID: 72108403}
+  secondRamp: {fileID: 0}
+  firstRamp: {fileID: 1061698380}
   player: {fileID: 956717716}
 --- !u!61 &80133851
 BoxCollider2D:
@@ -675,7 +675,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.745283, g: 0.41131186, b: 0.41131186, a: 0.65882355}
@@ -733,8 +733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 0}
-  downRamp: {fileID: 1220255356}
+  secondRamp: {fileID: 0}
+  firstRamp: {fileID: 1220255356}
   player: {fileID: 0}
 --- !u!61 &85295162
 BoxCollider2D:
@@ -1130,8 +1130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 0}
-  downRamp: {fileID: 1465406451}
+  secondRamp: {fileID: 0}
+  firstRamp: {fileID: 1465406451}
   player: {fileID: 0}
 --- !u!1 &165680812
 GameObject:
@@ -1996,8 +1996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 496363809}
-  downRamp: {fileID: 0}
+  secondRamp: {fileID: 162033}
+  firstRamp: {fileID: 496363809}
   player: {fileID: 956717716}
 --- !u!61 &239284096
 BoxCollider2D:
@@ -2092,7 +2092,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.9056604, g: 0.48273405, b: 0.48273405, a: 0.65882355}
@@ -2288,8 +2288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 0}
-  downRamp: {fileID: 628653716}
+  secondRamp: {fileID: 0}
+  firstRamp: {fileID: 628653716}
   player: {fileID: 0}
 --- !u!61 &245216943
 BoxCollider2D:
@@ -5607,8 +5607,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 1220255356}
-  downRamp: {fileID: 1190867492}
+  secondRamp: {fileID: 985795254}
+  firstRamp: {fileID: 1220255356}
   player: {fileID: 956717716}
 --- !u!61 &985795254
 BoxCollider2D:
@@ -5703,7 +5703,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.745283, g: 0.41131186, b: 0.41131186, a: 0.65882355}
@@ -5899,8 +5899,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 162033}
-  downRamp: {fileID: 496363809}
+  secondRamp: {fileID: 72108403}
+  firstRamp: {fileID: 162033}
   player: {fileID: 956717716}
 --- !u!61 &996538806
 BoxCollider2D:
@@ -5995,7 +5995,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.745283, g: 0.41131186, b: 0.41131186, a: 0.65882355}
@@ -6873,8 +6873,8 @@ Transform:
   m_GameObject: {fileID: 1169386725}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.49, y: -2.16, z: -10}
-  m_LocalScale: {x: 1.68, y: 0.78, z: 1}
+  m_LocalPosition: {x: 2.59, y: -2.16, z: -10}
+  m_LocalScale: {x: 3.11, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1063839399}
@@ -6972,7 +6972,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.9056604, g: 0.48273405, b: 0.48273405, a: 0.65882355}
@@ -6996,8 +6996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 207355330}
-  downRamp: {fileID: 0}
+  secondRamp: {fileID: 1465406451}
+  firstRamp: {fileID: 207355330}
   player: {fileID: 956717716}
 --- !u!1 &1178833503
 GameObject:
@@ -7740,8 +7740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 0}
-  downRamp: {fileID: 1061698380}
+  secondRamp: {fileID: 0}
+  firstRamp: {fileID: 1061698380}
   player: {fileID: 0}
 --- !u!61 &1262690639
 BoxCollider2D:
@@ -8727,8 +8727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 1190867492}
-  downRamp: {fileID: 0}
+  secondRamp: {fileID: 1220255356}
+  firstRamp: {fileID: 1190867492}
   player: {fileID: 956717716}
 --- !u!61 &1378299083
 BoxCollider2D:
@@ -8823,7 +8823,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.9056604, g: 0.48273405, b: 0.48273405, a: 0.65882355}
@@ -8962,7 +8962,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.745283, g: 0.41131186, b: 0.41131186, a: 0.65882355}
@@ -8986,8 +8986,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 1465406451}
-  downRamp: {fileID: 207355330}
+  secondRamp: {fileID: 999046555}
+  firstRamp: {fileID: 1465406451}
   player: {fileID: 956717716}
 --- !u!1 &1400761929
 GameObject:
@@ -10058,8 +10058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 999046555}
-  downRamp: {fileID: 0}
+  secondRamp: {fileID: 628653716}
+  firstRamp: {fileID: 999046555}
   player: {fileID: 956717716}
 --- !u!61 &1566988442
 BoxCollider2D:
@@ -10154,7 +10154,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.9056604, g: 0.48273405, b: 0.48273405, a: 0.65882355}
@@ -11710,8 +11710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 628653716}
-  downRamp: {fileID: 999046555}
+  secondRamp: {fileID: 1190867492}
+  firstRamp: {fileID: 628653716}
   player: {fileID: 956717716}
 --- !u!61 &1742052921
 BoxCollider2D:
@@ -11806,7 +11806,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.745283, g: 0.41131186, b: 0.41131186, a: 0.65882355}
@@ -13621,8 +13621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 0}
-  downRamp: {fileID: 162033}
+  secondRamp: {fileID: 0}
+  firstRamp: {fileID: 162033}
   player: {fileID: 0}
 --- !u!61 &1978679366
 BoxCollider2D:
@@ -13951,8 +13951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f4c61a96c954c86a30a3dfdacf5a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UltimateCC.RampGate
-  upRamp: {fileID: 72108403}
-  downRamp: {fileID: 0}
+  secondRamp: {fileID: 1061698380}
+  firstRamp: {fileID: 72108403}
   player: {fileID: 956717716}
 --- !u!61 &2048958685
 BoxCollider2D:
@@ -14047,7 +14047,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.9056604, g: 0.48273405, b: 0.48273405, a: 0.65882355}
@@ -15198,11 +15198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213259104454701875, guid: 8df91cb297f60c04c9706753ea914b78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.89
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3213259104454701875, guid: 8df91cb297f60c04c9706753ea914b78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 42.43
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 3213259104454701875, guid: 8df91cb297f60c04c9706753ea914b78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15674,7 +15674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &8317064523744418926
 Animator:
   serializedVersion: 7
